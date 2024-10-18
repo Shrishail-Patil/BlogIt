@@ -1,5 +1,4 @@
 var jwt = require("jsonwebtoken");
-const JWT_SECRET = "thisislordsvp";
 require('dotenv').config();
 
 const fetchuser = (req, res, next) => {
